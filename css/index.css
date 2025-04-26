@@ -1,0 +1,278 @@
+* {
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-sec {
+    padding: 0.5rem 6rem;
+}
+
+.navbar {
+    height: 40px;
+    align-items: center;
+    display: flex;
+
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    margin: 0;
+}
+
+.leftNab {
+    width: 30%;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+
+}
+
+p.bold {
+    font-weight: bold;
+    font-size: 21px;
+    padding-left: 10px;
+}
+
+p.lighter {
+    font-size: 16px;
+    margin: 0;
+}
+
+.rightNav {
+    width: 75%;
+}
+
+.list {
+    gap: 2.5rem;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list li {
+    font-size: 12px;
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.list li a:hover {
+    color: rgb(252 111 0)
+}
+
+.btn {
+    margin-top: 1%;
+    width: 130px;
+    gap: 0%;
+    padding: 0 10px;
+    height: 35px;
+    font-size: 14px;
+    background-color: rgb(253 111 0);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: 600;
+
+}
+
+.home {
+    padding-top: 5%;
+    display: flex;
+}
+
+.hero1 {
+    width: 64%;
+}
+
+.ts {
+    margin-bottom: 0%;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.ts1 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: rgb(253 111 0);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.ts2 {
+    margin-top: -5%;
+    margin-bottom: 0%;
+    font-size: 100px;
+    font-weight: bold
+}
+
+.ts3 {
+    margin-top: -5%;
+    margin-bottom: 0%;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.ts4 {
+    width: 64%;
+    font-size: 12px;
+}
+
+.btn-hover:hover {
+    background-color: rgb(3, 22, 52);
+}
+
+.hero2 {
+    width: 31%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero-img {
+    height: 450px;
+    width: 400px;
+    align-items: end;
+}
+
+.icons {
+    margin: 0%;
+    padding-left: 150px;
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.icons li {
+    display: flex;
+    list-style: none;
+}
+
+.icons li:hover {
+    color: rgb(253 111 0);
+}
+
+.about {
+   
+    padding-top: 6.5rem;
+    display: flex;
+    text-align: start;
+}
+
+.hero-img1{
+    height: 400px;
+    width: 350px;
+}
+.part1{
+    width: 40%;
+}
+.mid{
+    width :30%;
+}
+.part2{
+    width: 60%;
+}
+.ts5 {
+    margin-top: -10%;
+    font-size: 100px;
+    font-weight: 700;
+
+}
+.ts6 {
+    margin-top: -5%;
+    font-size: 14px;
+    
+}
+.ts7{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    font-size: 18px;
+    font-weight: 600;
+}
+.scroll{
+    height: 8px;
+    width: 400px;
+    background-color: rgb(222, 222, 222);
+    border-radius: 35px;
+    position: relative;
+}
+.scroll_1{
+    height: 8px;
+    width: 360px;
+    background-color: rgb(253 111 0);
+    position: relative;
+    border-radius: 35px;
+}
+.circle1{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(237, 234, 231);
+    top: -3px;
+    left: 350px;
+    border: 2px solid rgb(253 111 0);
+}
+
+.scroll_2{
+    height: 8px;
+    width: 330px;
+    background-color: rgb(253 111 0);
+    border-radius: 35px;
+}
+.circle2{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(237, 234, 231);
+    top: -3px;
+    left: 320px;
+    border: 2px solid rgb(253 111 0);
+}
+.scroll_3{
+    height: 8px;
+    width: 375px;
+    background-color: rgb(253 111 0);
+    border-radius: 35px;
+}
+.circle3{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(237, 234, 231);
+    top: -3px;
+    left: 365px;
+    border: 2px solid rgb(253 111 0);
+}
+.scroll_4{
+    height: 8px;
+    width: 340px;
+    background-color: rgb(253 111 0);
+    border-radius: 35px;
+}
+.circle4{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(237, 234, 231);
+    top: -3px;
+    left: 330px;
+    border: 2px solid rgb(253 111 0);
+}
+
+.ts8{
+    margin-top: 5%;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+}
