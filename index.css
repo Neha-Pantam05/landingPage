@@ -121,7 +121,7 @@ p.lighter {
 }
 
 .ts4 {
-    width: 64%;
+    width: 70%;
     font-size: 12px;
 }
 
@@ -275,4 +275,73 @@ p.lighter {
     font-size: 100px;
     font-weight: 700;
     text-align: center;
+}
+
+.ts9{
+    font-size: 13px;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.card{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    background-color: rgb(248 248 248);
+}
+.c1{
+    height: 80px;
+    width: 80px;
+}
+
+.card2{
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+  
+    background-color:  rgb(248 248 248);
+}
+.c2{
+    height: 80px;
+    width: 80px;
+}
+.card3{
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+   
+    background-color:  rgb(248 248 248);
+}
+.c3{
+    height: 80px;
+    width: 80px;
+}
+.card4{
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+
+    background-color: rgb(248 248 248);
+}
+.c4{
+    height: 80px;
+    width: 80px;
+}
+
+.ts10{
+    width: 80%;
+    font-size: 13px;
 }
