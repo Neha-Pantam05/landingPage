@@ -84,6 +84,7 @@ p.lighter {
 
 .home {
     padding-top: 5%;
+    padding-bottom: 5%;
     display: flex;
 }
 
@@ -160,8 +161,7 @@ p.lighter {
 }
 
 .about {
-
-    padding-top: 2.5rem;
+    padding-top: 5%;
     display: flex;
     text-align: start;
 }
@@ -284,9 +284,12 @@ p.lighter {
     left: 330px;
     border: 2px solid rgb(253 111 0);
 }
-
+.servies {
+    padding-top: 5%;
+    padding-bottom: 5%;
+ 
+}
 .ts8 {
-    margin-top: 5%;
     font-size: 100px;
     font-weight: 700;
     text-align: center;
@@ -371,4 +374,131 @@ p.lighter {
     padding-top: 1.5%;
     width: 85%;
     font-size: 13px;
+}
+
+.project{
+    padding-top: 5%;
+    padding-bottom: 5%;
+ 
+}
+.button{
+    justify-content: center;
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.btn1{
+    height: 40px;
+    width: 50px;
+    background-color: rgb(253 111 0);
+    border-radius: 7px;
+    color: white;
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 13px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.btn2{
+    height: 40px;
+    width: 80px;
+    background-color:white;
+    border-radius: 7px;
+    color:blank;
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 13px;
+    align-items: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.btn2:hover{
+    background-color: rgb(253 111 0);
+    color: white;
+}
+
+.btn3{
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border-radius: 7px;
+    color: blank;
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 13px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.btn3:hover{
+    background-color: rgb(253 111 0);
+    color: white;
+}
+
+.btn4{
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border-radius: 7px;
+    color: blank;
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 13px;
+    align-items: center;
+    margin-right: 10px;
+}
+.btn4:hover{
+    background-color: rgb(253 111 0);
+    color: white;
+}
+.btn5{
+    height: 40px;
+    width: 140px;
+    background-color: white;
+    border-radius: 7px;
+    color: blank;
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 13px;
+    align-items: center;
+    margin-right: 10px;
+}
+.btn5:hover{
+    background-color: rgb(253 111 0);
+    color: white;
+}
+
+.wd1{
+    width: 300px;
+    height: 350px;
+}
+.p1{
+    font-size: 14px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: rgb(253 111 0);
+}
+
+.t1{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+.webD1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 2% 7% 2%;
+}
+.webD2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 2% 7% 2%;
+}
+.webD3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 2% 7% 2%;
 }
