@@ -285,7 +285,7 @@ p.lighter {
     border: 2px solid rgb(253 111 0);
 }
 .servies {
-    padding-top: 5%;
+    
     padding-bottom: 5%;
  
 }
@@ -377,7 +377,7 @@ p.lighter {
 }
 
 .project{
-    padding-top: 5%;
+    
     padding-bottom: 5%;
  
 }
@@ -501,4 +501,31 @@ p.lighter {
     display: flex;
     justify-content: space-evenly;
     margin: 5% 2% 7% 2%;
+}
+
+.arrow{
+    height: 30px;
+    width: 30px;
+    border-radius: 15%;
+    padding: 1%;
+    margin-top: 5%;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+.arrow:hover{
+    background-color: rgb(230 230 230);
+}
+.block{
+    display: flex;
+}
+.b1{
+    display: flex;
+    margin: 5%;
+}
+.block-img{
+    height: 160px;
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 5%;
 }
