@@ -15,7 +15,8 @@
 </head>
 
 <body>
-    <main class="main-sec">
+    
+    <div class="main-sec">
         <div class="navbar">
             <div class="leftNab">
                 <img class="logo" src="images/logo.webp" alt="logo">
@@ -29,7 +30,7 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="#project">Project</a></li>
                     <li><a href="#Testimonial">Testimonial</a></li>
-                    <li><a href="Contact">Contact</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                     <button class="btn">Download CV</button>
                 </ul>
             </div>
@@ -131,12 +132,12 @@
                 Ab voluptate illo odio in sol</p>
             <div class="button">
                 <button class="btn1">All</button>
-                <button class="btn2">UI/UX</button>
-                <button class="btn3">Web Design</button>
+                <button class="btn2"><a href="ui/ux"></a>UI/UX</button>
+                <button class="btn3"><a href="#webDesign"></a>Web Design</button>
                 <button class="btn4">App Design</button>
                 <button class="btn5">Graphics Design</button>
             </div>
-            <div class="webD1" id="webD1">
+            <div class="webDesign" id="webDesign">
                 <div class="webD">
                     <img src="images/wd1.webp" alt="wd1" class="wd1">
                     <p class="p1">Web Design</p>
@@ -153,7 +154,7 @@
                     <p class="t1">E-commerce Landing Page Design</p>
                 </div>
             </div>
-            <div class="webD2" id="webD2">
+            <div class="uiux" id="uiux">
                 <div class="webD">
                     <img src="images/wd1.webp" alt="wd4" class="wd1">
                     <p class="p1">UI/UX</p>
@@ -193,28 +194,126 @@
             <p class="ts9">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem nemo aperiam corrupti quia!
                 Ab voluptate illo odio in sol</p>
             <div class="block">
-                <div class="arrow">
+                <button onclick="goNext()" class="arrow-btn">
                     <i class="fa-solid fa-arrow-left" id="a1"></i>
-                </div>
-                <div class="b1">
-                <div class="b1P1">
-                    <img class="block-img" src="images/t2.webp" alt="1">
-                </div>
-                <div class="b1P2">
-                    <p class="kotes">"</p>
-                    <p class="ts11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
-                    <p class="kotes">"</p>
-                    <p class="name">Name</p>
-                    <p class="subt">CEO</p>
-                </div>
-                </div>
-                <div class="arrow">
+                </button>
+                <main class="card">
+                    <div class="testimonialCard">
+                        <div class="profile-image">
+                            <img src="images/t1.webp" alt="Profile Photo">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">
+                                <span class="quote-icon-left">"</span>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta impedit qui dolorem quia
+                                cupiditate repudiandae laborum aspernatur nam veniam ratione libero aliquid nisi fugit
+                                possimus, eligendi vero. Saepe, qui voluptatum!
+                                <span class="quote-icon-right">"</span>
+                            </p>
+                            <h3 class="name">Name</h3>
+                            <p class="designation">CEO</p>
+                        </div>
+                    </div>
+                    <div class="testimonialCard">
+                        <div class="profile-image">
+                            <img src="images/t2.webp" alt="Profile Photo">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">
+                                <span class="quote-icon-left">"</span>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta impedit qui dolorem quia
+                                cupiditate repudiandae laborum aspernatur nam veniam ratione libero aliquid nisi fugit
+                                possimus, eligendi vero. Saepe, qui voluptatum!
+                                <span class="quote-icon-right">"</span>
+                            </p>
+                            <h3 class="name">Name</h3>
+                            <p class="designation">CEO</p>
+                        </div>
+                    </div>
+                    <div class="testimonialCard">
+                        <div class="profile-image">
+                            <img src="images/t1.webp" alt="Profile Photo">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">
+                                <span class="quote-icon-left">"</span>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta impedit qui dolorem quia
+                                cupiditate repudiandae laborum aspernatur nam veniam ratione libero aliquid nisi fugit
+                                possimus, eligendi vero. Saepe, qui voluptatum!
+                                <span class="quote-icon-right">"</span>
+                            </p>
+                            <h3 class="name">Name</h3>
+                            <p class="designation">CEO</p>
+                        </div>
+                    </div>
+                    <div class="testimonialCard">
+                        <div class="profile-image">
+                            <img src="images/t2.webp" alt="Profile Photo">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">
+                                <span class="quote-icon-left">"</span>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta impedit qui dolorem quia
+                                cupiditate repudiandae laborum aspernatur nam veniam ratione libero aliquid nisi fugit
+                                possimus, eligendi vero. Saepe, qui voluptatum!
+                                <span class="quote-icon-right">"</span>
+                            </p>
+                            <h3 class="name">Name</h3>
+                            <p class="designation">CEO</p>
+                        </div>
+                    </div>
+                </main>
+                <button onclick="goPrev()" class="arrow-btn">
                     <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+            <div class="scrollBar">
+                <div class="scroll1"></div>
+                <div class="scroll2"></div>
+                <div class="scroll3"></div>
+                <div class="scroll4"></div>
+            </div>
+        </div>
+        <div class="contact" id="Contact">
+            <p class="font1">Lets Design Together</p>
+            <p class="ts9">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem nemo aperiam corrupti quia!
+                Ab voluptate illo odio in sol</p>
+            <div class="txt-box">
+                <input type="email" name="Enter your email" class="email" placeholder="Enter Your Email">
+                <button class="btn btn-hover">Contact Me</button>
+            </div>
+            <div class="footer">
+                <div class="topfooter">
+                    <img class="logo1" src="images/logo.webp" alt="logo">
+                    <p class="bold1">M</p>
+                    <p class="lighter1">umair</p>
+                </div>
+                <div class="topfooter1">
+                    <ul class="list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#Testimonial">Testimonial</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+                <ul class="icons1">
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                </ul>
+                <div class="downfooter">
+                    <p class="font2">© 2025 </p>
+                    <p class="font3"> Mumair </p>
+                    <p class="font2">All Rights Reserved , Inc.</p>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
